@@ -1,0 +1,15 @@
+{
+    "name": "cura_healthcare",
+    "version": "1.0.0",
+    "description": "CURA Healthcare e2e tests",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "AP",
+    "license": "ISC",
+    "devDependencies": {
+        "cypress": "^11.2.0",
+        "cypress-xpath": "^2.0.1"
+    }
+}
