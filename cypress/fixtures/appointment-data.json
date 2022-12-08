@@ -2,6 +2,7 @@
     "propperAppointments": [
         {
             "facility": "Tokyo CURA Healthcare Center",
+            "daysToVisit": 1,
             "healthcareProgram": "Medicare",
             "hospitalReadmission": true,
             "visitDate": 30,
@@ -9,6 +10,7 @@
         },
         {
             "facility": "Hongkong CURA Healthcare Center",
+            "daysToVisit": 10,
             "healthcareProgram": "Medicaid",
             "hospitalReadmission": false,
             "visitDate": 30,
@@ -16,11 +18,21 @@
         },
         {
             "facility": "Seoul CURA Healthcare Center",
+            "daysToVisit": 20,
             "healthcareProgram": "None",
             "hospitalReadmission": false,
             "visitDate": 30,
             "comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
         }
     ],
-    "impropperAppointments": []
+    "backdatedAppointments": [
+        {
+            "facility": "Tokyo CURA Healthcare Center",
+            "daysToVisit": -5,
+            "healthcareProgram": "Medicare",
+            "hospitalReadmission": true,
+            "visitDate": 30,
+            "comment": "Backdated appointment"
+        }
+    ]
 }

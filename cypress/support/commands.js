@@ -51,3 +51,12 @@ Cypress.Commands.add("curaHistoryElement", (divSelector, appointmentDetail) => {
         .last()
         .find(appointmentDetail);
 });
+
+Cypress.Commands.add("datepickerHandler", (date) => {
+    cy.get("#txt_visit_date").should("have.attr", "required");
+    cy.get("#txt_visit_date").click();
+
+    cy.get("#txt_visit_date").type(
+        `${date.day}/${date.month + 1}/${date.year}`
+    );
+});
