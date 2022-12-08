@@ -1,0 +1,26 @@
+{
+    "propperAppointments": [
+        {
+            "facility": "Tokyo CURA Healthcare Center",
+            "healthcareProgram": "Medicare",
+            "hospitalReadmission": true,
+            "visitDate": 30,
+            "comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        },
+        {
+            "facility": "Hongkong CURA Healthcare Center",
+            "healthcareProgram": "Medicaid",
+            "hospitalReadmission": false,
+            "visitDate": 30,
+            "comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        },
+        {
+            "facility": "Seoul CURA Healthcare Center",
+            "healthcareProgram": "None",
+            "hospitalReadmission": false,
+            "visitDate": 30,
+            "comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        }
+    ],
+    "impropperAppointments": []
+}

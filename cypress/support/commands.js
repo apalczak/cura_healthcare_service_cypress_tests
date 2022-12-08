@@ -43,3 +43,11 @@ Cypress.Commands.add("typeProperLoginData", (dataOrigin, dataDestination) => {
             cy.get(dataDestination).type(value);
         });
 });
+
+Cypress.Commands.add("curaHistoryElement", (divSelector, appointmentDetail) => {
+    cy.get("#history .container .row")
+        .eq(1)
+        .find(divSelector)
+        .last()
+        .find(appointmentDetail);
+});
